@@ -25,40 +25,36 @@ ul{
 }
 .rd-car{
     margin-bottom: -15px;
-    width: 200px;
-    height: 170px;
+    max-width: 200px;
+    max-height: 170px;
 }
 .gr-car{
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.explosion img{
+    max-width: 100px;
+    max-height: 100px;
 }
 .gr-car-img{
     animation-name: moveRigt;
     animation-delay: 0s;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-timing-function: linear;
-    animation-iteration-count: 5;
-    /* animation-iteration-count: infinite; */
-
-	animation-direction: alternate;
-	animation-fill-mode: forwards;
+    animation-iteration-count: 3;
 }
 .rd-car-img{
     animation-name: moveLeft;
     animation-delay: 0s;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-timing-function: linear;
-    animation-iteration-count: 5;
-    /* animation-iteration-count: infinite; */
-
-	animation-direction: alternate;
-	animation-fill-mode: forwards;
+    animation-iteration-count: 3;
 }
 /* .explosion{
     animation-name: explosion;
-    animation-delay: 3s;
-    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-duration: 7s;
     animation-timing-function: linear;
-    animation-iteration-count: 5;
+    animation-iteration-count: 1;
 
 } */

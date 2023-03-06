@@ -1,24 +1,24 @@
 @keyframes moveRigt{
-    from{
+    0%{
         left: 0;
     }
-    to{
-        right: 48%;
+    100%{
+        left: 45%;
     }
 }
 @keyframes moveLeft{
-    from{
-        right: 0;
+    0% {
+        left: 100%;
     }
-    to{
-        left: 48%;
-    }
-}
-@keyframes explosion{
-    from{
-        right: 50%;
-    }
-    to{
+    100% {
         left: 50%;
     }
 }
+/* @keyframes explosion{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 50%;
+    }
+} */
